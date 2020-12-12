@@ -107,7 +107,7 @@ if( $_SERVER['REMOTE_ADDR'] =="::1" || $_SERVER['REMOTE_ADDR']=="192.168.64.1"  
 if(!isset(  $_SESSION['log'] ) ){
 
     if( isset($_GET['usuario']) && isset($_GET['contrasena']) ){
-        if(  $_GET['usuario'] == 'adriana2021' && $_GET['contrasena'] == 'p0rfirio_'){
+        if(  $_GET['usuario'] == 'USUARIO' && $_GET['contrasena'] == 'PASSWORD'){
             echo " <p> <i> Ingreso exitoso </i> ";
              echo "<h1> ¿Por donde quieres empezar ?</h1>"; 
             $_SESSION['log'] = 1;
